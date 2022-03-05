@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE76EF85271A2CBE000AD330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76EF84271A2CBE000AD330 /* AppDelegate.swift */; };
+		EE76EF87271A2CBE000AD330 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76EF86271A2CBE000AD330 /* SceneDelegate.swift */; };
+		EE76EF89271A2CBE000AD330 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76EF88271A2CBE000AD330 /* ViewController.swift */; };
+		EE76EF8C271A2CBE000AD330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE76EF8A271A2CBE000AD330 /* Main.storyboard */; };
+		EE76EF8E271A2CC0000AD330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE76EF8D271A2CC0000AD330 /* Assets.xcassets */; };
+		EE76EF91271A2CC0000AD330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE76EF8F271A2CC0000AD330 /* LaunchScreen.storyboard */; };
+		EE76EF9C271A2CC1000AD330 /* Applepie_EliasvandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76EF9B271A2CC1000AD330 /* Applepie_EliasvandTests.swift */; };
+		EE76EFA7271A2CC1000AD330 /* Applepie_EliasvandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76EFA6271A2CC1000AD330 /* Applepie_EliasvandUITests.swift */; };
+		EE76EFB7271A39BD000AD330 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76EFB6271A39BD000AD330 /* Game.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE76EF98271A2CC1000AD330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE76EF79271A2CBE000AD330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE76EF80271A2CBE000AD330;
+			remoteInfo = Applepie_Eliasvand;
+		};
+		EE76EFA3271A2CC1000AD330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE76EF79271A2CBE000AD330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE76EF80271A2CBE000AD330;
+			remoteInfo = Applepie_Eliasvand;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE76EF81271A2CBE000AD330 /* Applepie_Eliasvand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Applepie_Eliasvand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE76EF84271A2CBE000AD330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE76EF86271A2CBE000AD330 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE76EF88271A2CBE000AD330 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE76EF8B271A2CBE000AD330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE76EF8D271A2CC0000AD330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE76EF90271A2CC0000AD330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE76EF92271A2CC0000AD330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE76EF97271A2CC1000AD330 /* Applepie_EliasvandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Applepie_EliasvandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE76EF9B271A2CC1000AD330 /* Applepie_EliasvandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Applepie_EliasvandTests.swift; sourceTree = "<group>"; };
+		EE76EF9D271A2CC1000AD330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE76EFA2271A2CC1000AD330 /* Applepie_EliasvandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Applepie_EliasvandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE76EFA6271A2CC1000AD330 /* Applepie_EliasvandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Applepie_EliasvandUITests.swift; sourceTree = "<group>"; };
+		EE76EFA8271A2CC1000AD330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE76EFB6271A39BD000AD330 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE76EF7E271A2CBE000AD330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE76EF94271A2CC1000AD330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE76EF9F271A2CC1000AD330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE76EF78271A2CBE000AD330 = {
+			isa = PBXGroup;
+			children = (
+				EE76EF83271A2CBE000AD330 /* Applepie_Eliasvand */,
+				EE76EF9A271A2CC1000AD330 /* Applepie_EliasvandTests */,
+				EE76EFA5271A2CC1000AD330 /* Applepie_EliasvandUITests */,
+				EE76EF82271A2CBE000AD330 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE76EF82271A2CBE000AD330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE76EF81271A2CBE000AD330 /* Applepie_Eliasvand.app */,
+				EE76EF97271A2CC1000AD330 /* Applepie_EliasvandTests.xctest */,
+				EE76EFA2271A2CC1000AD330 /* Applepie_EliasvandUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE76EF83271A2CBE000AD330 /* Applepie_Eliasvand */ = {
+			isa = PBXGroup;
+			children = (
+				EE76EF84271A2CBE000AD330 /* AppDelegate.swift */,
+				EE76EF86271A2CBE000AD330 /* SceneDelegate.swift */,
+				EE76EF88271A2CBE000AD330 /* ViewController.swift */,
+				EE76EF8A271A2CBE000AD330 /* Main.storyboard */,
+				EE76EF8D271A2CC0000AD330 /* Assets.xcassets */,
+				EE76EF8F271A2CC0000AD330 /* LaunchScreen.storyboard */,
+				EE76EF92271A2CC0000AD330 /* Info.plist */,
+				EE76EFB6271A39BD000AD330 /* Game.swift */,
+			);
+			path = Applepie_Eliasvand;
+			sourceTree = "<group>";
+		};
+		EE76EF9A271A2CC1000AD330 /* Applepie_EliasvandTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE76EF9B271A2CC1000AD330 /* Applepie_EliasvandTests.swift */,
+				EE76EF9D271A2CC1000AD330 /* Info.plist */,
+			);
+			path = Applepie_EliasvandTests;
+			sourceTree = "<group>";
+		};
+		EE76EFA5271A2CC1000AD330 /* Applepie_EliasvandUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE76EFA6271A2CC1000AD330 /* Applepie_EliasvandUITests.swift */,
+				EE76EFA8271A2CC1000AD330 /* Info.plist */,
+			);
+			path = Applepie_EliasvandUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE76EF80271A2CBE000AD330 /* Applepie_Eliasvand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE76EFAB271A2CC1000AD330 /* Build configuration list for PBXNativeTarget "Applepie_Eliasvand" */;
+			buildPhases = (
+				EE76EF7D271A2CBE000AD330 /* Sources */,
+				EE76EF7E271A2CBE000AD330 /* Frameworks */,
+				EE76EF7F271A2CBE000AD330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Applepie_Eliasvand;
+			productName = Applepie_Eliasvand;
+			productReference = EE76EF81271A2CBE000AD330 /* Applepie_Eliasvand.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE76EF96271A2CC1000AD330 /* Applepie_EliasvandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE76EFAE271A2CC1000AD330 /* Build configuration list for PBXNativeTarget "Applepie_EliasvandTests" */;
+			buildPhases = (
+				EE76EF93271A2CC1000AD330 /* Sources */,
+				EE76EF94271A2CC1000AD330 /* Frameworks */,
+				EE76EF95271A2CC1000AD330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE76EF99271A2CC1000AD330 /* PBXTargetDependency */,
+			);
+			name = Applepie_EliasvandTests;
+			productName = Applepie_EliasvandTests;
+			productReference = EE76EF97271A2CC1000AD330 /* Applepie_EliasvandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE76EFA1271A2CC1000AD330 /* Applepie_EliasvandUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE76EFB1271A2CC1000AD330 /* Build configuration list for PBXNativeTarget "Applepie_EliasvandUITests" */;
+			buildPhases = (
+				EE76EF9E271A2CC1000AD330 /* Sources */,
+				EE76EF9F271A2CC1000AD330 /* Frameworks */,
+				EE76EFA0271A2CC1000AD330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE76EFA4271A2CC1000AD330 /* PBXTargetDependency */,
+			);
+			name = Applepie_EliasvandUITests;
+			productName = Applepie_EliasvandUITests;
+			productReference = EE76EFA2271A2CC1000AD330 /* Applepie_EliasvandUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE76EF79271A2CBE000AD330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EE76EF80271A2CBE000AD330 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EE76EF96271A2CC1000AD330 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EE76EF80271A2CBE000AD330;
+					};
+					EE76EFA1271A2CC1000AD330 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EE76EF80271A2CBE000AD330;
+					};
+				};
+			};
+			buildConfigurationList = EE76EF7C271A2CBE000AD330 /* Build configuration list for PBXProject "Applepie_Eliasvand" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE76EF78271A2CBE000AD330;
+			productRefGroup = EE76EF82271A2CBE000AD330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE76EF80271A2CBE000AD330 /* Applepie_Eliasvand */,
+				EE76EF96271A2CC1000AD330 /* Applepie_EliasvandTests */,
+				EE76EFA1271A2CC1000AD330 /* Applepie_EliasvandUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE76EF7F271A2CBE000AD330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE76EF91271A2CC0000AD330 /* LaunchScreen.storyboard in Resources */,
+				EE76EF8E271A2CC0000AD330 /* Assets.xcassets in Resources */,
+				EE76EF8C271A2CBE000AD330 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE76EF95271A2CC1000AD330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE76EFA0271A2CC1000AD330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE76EF7D271A2CBE000AD330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE76EF89271A2CBE000AD330 /* ViewController.swift in Sources */,
+				EE76EF85271A2CBE000AD330 /* AppDelegate.swift in Sources */,
+				EE76EF87271A2CBE000AD330 /* SceneDelegate.swift in Sources */,
+				EE76EFB7271A39BD000AD330 /* Game.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE76EF93271A2CC1000AD330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE76EF9C271A2CC1000AD330 /* Applepie_EliasvandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE76EF9E271A2CC1000AD330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE76EFA7271A2CC1000AD330 /* Applepie_EliasvandUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE76EF99271A2CC1000AD330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE76EF80271A2CBE000AD330 /* Applepie_Eliasvand */;
+			targetProxy = EE76EF98271A2CC1000AD330 /* PBXContainerItemProxy */;
+		};
+		EE76EFA4271A2CC1000AD330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE76EF80271A2CBE000AD330 /* Applepie_Eliasvand */;
+			targetProxy = EE76EFA3271A2CC1000AD330 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE76EF8A271A2CBE000AD330 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE76EF8B271A2CBE000AD330 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE76EF8F271A2CC0000AD330 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE76EF90271A2CC0000AD330 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE76EFA9271A2CC1000AD330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE76EFAA271A2CC1000AD330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE76EFAC271A2CC1000AD330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Applepie_Eliasvand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Faniz.Applepie-Eliasvand";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EE76EFAD271A2CC1000AD330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Applepie_Eliasvand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Faniz.Applepie-Eliasvand";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		EE76EFAF271A2CC1000AD330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Applepie_EliasvandTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Faniz.Applepie-EliasvandTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Applepie_Eliasvand.app/Applepie_Eliasvand";
+			};
+			name = Debug;
+		};
+		EE76EFB0271A2CC1000AD330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Applepie_EliasvandTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Faniz.Applepie-EliasvandTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Applepie_Eliasvand.app/Applepie_Eliasvand";
+			};
+			name = Release;
+		};
+		EE76EFB2271A2CC1000AD330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Applepie_EliasvandUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Faniz.Applepie-EliasvandUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Applepie_Eliasvand;
+			};
+			name = Debug;
+		};
+		EE76EFB3271A2CC1000AD330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Applepie_EliasvandUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Faniz.Applepie-EliasvandUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Applepie_Eliasvand;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE76EF7C271A2CBE000AD330 /* Build configuration list for PBXProject "Applepie_Eliasvand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE76EFA9271A2CC1000AD330 /* Debug */,
+				EE76EFAA271A2CC1000AD330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE76EFAB271A2CC1000AD330 /* Build configuration list for PBXNativeTarget "Applepie_Eliasvand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE76EFAC271A2CC1000AD330 /* Debug */,
+				EE76EFAD271A2CC1000AD330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE76EFAE271A2CC1000AD330 /* Build configuration list for PBXNativeTarget "Applepie_EliasvandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE76EFAF271A2CC1000AD330 /* Debug */,
+				EE76EFB0271A2CC1000AD330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE76EFB1271A2CC1000AD330 /* Build configuration list for PBXNativeTarget "Applepie_EliasvandUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE76EFB2271A2CC1000AD330 /* Debug */,
+				EE76EFB3271A2CC1000AD330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE76EF79271A2CBE000AD330 /* Project object */;
+}
